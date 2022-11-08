@@ -27,6 +27,11 @@
     height: 250px;
 }
 
+.article-base{
+    display: flex;
+    flex-direction: column;
+}
+
 .separateur-flex{
     display: flex;
     justify-content: space-between;
@@ -34,8 +39,9 @@
 
 .image-timbre{
     border-top-left-radius: 20px;
-    min-width: none;width: 175px;
-    height: 205px;
+    min-width: none;
+    width: 175px;
+    height: 200px;
     object-fit: cover;
 }
 
@@ -44,14 +50,19 @@
 }
 
 .bas-carte{
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
 }
+
 
 .carte-droite{
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     width: 170px;
     height: 190px;
 }
@@ -59,4 +70,20 @@
     align-self: center;
  }
 
+.temps-restant{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    gap: 10px;
+}
 
+.article-base button{
+    background-color: inherit;
+    border-radius: 15px;
+    border: none;
+}
+
+.article-base button:hover{
+    transition: 0.5s;
+    background-color: var(--HovMediumCarmine);
+}

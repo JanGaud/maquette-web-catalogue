@@ -13,13 +13,17 @@ main>*{
 h1{
   text-align: center;
   color: var(--MediumCarmine);
-  font-family: 'Freehand', cursive;
+  font-family: 'Zilla Slab Highlight', cursive;
   font-size: 40px;
 }
 
 h3{
-  font-family: 'Zilla Slab Highlight', cursive;
-  font-size: 25px;
+  font-family: 'Freehand', cursive;
+  font-size: 20px;
+}
+
+pre{
+  font-size: 15px;
 }
 
 p{
