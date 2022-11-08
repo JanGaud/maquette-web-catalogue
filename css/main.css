@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    width: 100%;
+}
+
+main>*{
+    margin: 30px;
+    margin-top: 50px;
+}
+
+
+/*scrollbar*/
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+  }
+  
+ 
+  ::-webkit-scrollbar-track {
+    background: var( --Ivory); 
+  }
+   
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--MediumCarmine); 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--HovMediumCarmine); 
+  }

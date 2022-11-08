@@ -1,0 +1,46 @@
+.largeur-presentation{
+    width: 100%;
+    height: fit-content;
+    object-fit: contain;
+}
+
+.presentation-cartes{
+    background-color: var(--Xiketic);
+    box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.062);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    overflow: scroll;
+    width: 95%;
+    height: 300px;
+}
+.article-base{
+    margin: 20px;
+    background-color: var(--Ivory);
+    border-radius: 15px;
+    min-width: 350px;
+    height: 250px;
+}
+
+.separateur-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-timbre{
+    border-top-left-radius: 20px;
+    width: 175px;
+    height: 205px;
+    object-fit: cover;
+}
+
+.image-timbre>img{
+    width: 100%;
+}
+
+.bas-carte{
+    
+}
+
+
+
