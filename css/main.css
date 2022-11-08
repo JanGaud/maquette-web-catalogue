@@ -8,6 +8,25 @@ main>*{
     margin-top: 50px;
 }
 
+/*Typographies*/
+
+h1{
+  text-align: center;
+  color: var(--MediumCarmine);
+  font-family: 'Freehand', cursive;
+  font-size: 40px;
+}
+
+h3{
+  font-family: 'Zilla Slab Highlight', cursive;
+  font-size: 25px;
+}
+
+p{
+  font-family: 'Times New Roman', Times;
+  font-size: 14px;
+}
+
 
 /*scrollbar*/
 
@@ -18,7 +37,7 @@ main>*{
   
  
   ::-webkit-scrollbar-track {
-    background: var( --Ivory); 
+
   }
    
 
