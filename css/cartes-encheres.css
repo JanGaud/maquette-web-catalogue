@@ -87,5 +87,5 @@
 
 .article-base button:hover{
     transition: 0.5s;
-    background-color: var(--HovMediumCarmine);
+    background-color: var(--TransMediumCarmine);
 }
