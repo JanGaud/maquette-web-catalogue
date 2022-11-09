@@ -1,0 +1,15 @@
+.liens-rapides{
+    width: 50%;
+    height: 300px;
+    border: 1px solid blue;
+}
+
+.boite-lien{
+    height: 100px;
+    width: 150px;
+    border: 1px dotted red;
+}
+
+.Liens-rapide-cadre{
+    
+}

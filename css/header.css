@@ -1,5 +1,5 @@
 header{
-    background-color: var(--MaximumBluePurple);
+    background-color: inherit;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
     width: 100%;

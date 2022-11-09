@@ -32,7 +32,7 @@
     font-family: serif;
     font-size: 15px;
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .client-connexion>a:hover{

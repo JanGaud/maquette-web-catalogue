@@ -9,7 +9,11 @@
 
     /*Hover colors*/
     --HovMediumCarmine: #c75353;
+    --HovBlueRYB: #4e59ad;
 
-    /*Fonts*/
+    /*transparance*/
+    --TransBlueRYB: #364adfaf;
+    --TransMediumCarmine: #b93c3c7c;
+
     
   }
