@@ -1,0 +1,50 @@
+footer{
+    position: relative;
+    margin:0;
+    margin-top: 100px;
+    background-color: var(--Xiketic);
+    height: 250px;
+}
+
+.footer-logo{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 175px;
+    height: 175px;
+    object-fit: contain;
+}
+
+.footer-logo>img{
+    width: 100%;
+    height:auto
+}
+
+.nav-social{
+    position: absolute;
+    right: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border-radius: 40px;
+    width: 160px;
+
+}
+
+.select-langue{
+    position: absolute;
+    margin-left: 10px;
+    bottom: 80px;
+}
+
+.select-langue select{
+    border-radius: 15px;
+    width: 100px;
+    height: 25px;
+    background-color: var(--Ivory);
+}
+
+.footer-contact{
+    color: white;
+}

@@ -31,10 +31,12 @@
 }
 
 .boite-lien>button{
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
     height: 100%;
     width: 100%;
     border: none;
-    background-color: transparent;
+    font-weight: bold;
     color: white;
 }
 
@@ -48,11 +50,12 @@
     width: 40%;
     height: 341px;
     object-fit: cover;
+    overflow: hidden;
 }
 
 .cadre-img>img{
     opacity: 0.6;
-    max-width: 100%;
+    min-height: 100%;
 }
 
 .cadre-img>img:hover{
