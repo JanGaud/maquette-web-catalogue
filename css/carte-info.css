@@ -1,36 +1,74 @@
-.body-infos-carte{
-    width: 100%;
-    height: 100%;
-    background-color: aqua;
+.infos-carte-boite{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.arriere-flou{
-    margin: 0;
-    position: absolute;
-    z-index: -1;
-    width: 100%;
-    height: 100%;
-    filter: blur(1.5rem);
-}
 
-.articleInfos{
-    margin: auto;
-}
-
-.articleInfos{
-    background-color: rgb(130, 109, 145);
-    width: 600px;
-    height: 500px;
-}
-
-.carte-info-img{
-    width: 300px;
-    height: 400px;
+.infos-carte-img{
+    background-color: var(--Xiketic);
+    max-width: 325px;
+    min-width: 325px;
+    height: auto;
     object-fit: cover;
     overflow: hidden;
 }
 
-.carte-info-img>img{
+.infos-carte-img>img{
     width: 100%;
-    height: auto;
+}
+
+.img-infos-carte-separateur{
+    width: fit-content;
+    display: flex;
+}
+
+
+.img-infos-carte-separateur>.mini-img{
+    background-color: var(--Xiketic);
+    display: flex;
+    overflow-x: hidden;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;    
+
+}
+
+.img-infos-carte-separateur>.mini-img{
+    gap: 10px;
+    height: 400px;
+    min-width: 75px;
+    max-width: 75px;
+}
+
+.mini-img>img{
+    background-color: rgb(129, 129, 129);
+    width: 60px;
+    height: 60px;
+}
+
+.infos-carte-text{
+    background-color: var(--GrisTrans);
+    padding: 10px;
+    min-width: 600px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.infos-carte-text>div{
+    width: 100%;
+    height: 25%;
+}
+
+.infos-carte-bas{
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.infos-carte-bas>div{
+    border-right: 2px solid var(--GrisTrans);
+    height: 100%;
+    width: 24%;
 }

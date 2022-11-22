@@ -28,9 +28,10 @@
 }
 
 .banner-nav button{
-    background-color: var(--TransMediumCarmine);
-    padding: 5px;
+    background-color: var(--TransMediumCarmine);    
     border: none;
+    margin: 10px;
+    padding: 5px;
     border-radius: 15px;
 }
 

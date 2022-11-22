@@ -25,11 +25,6 @@
     background-color: var(--Xiketic);
 }
 
-.boite-lien:hover{
-    transition: 0.6s;
-    border-radius: 50px;
-}
-
 .boite-lien>button{
     background-color: rgba(0, 0, 0, 0.5);
     font-size: 20px;
@@ -41,8 +36,8 @@
 }
 
 .boite-lien>button:hover{
+    background-color: rgba(0, 0, 0, 0.897);
     transition: 0.6s;
-    border-radius: 50px;
 }
 
 .cadre-img{
@@ -56,11 +51,6 @@
 .cadre-img>img{
     opacity: 0.6;
     min-height: 100%;
-}
-
-.cadre-img>img:hover{
-    transition: 0.6s;
-    opacity: 1;
 }
 
 .cadre-img>h1{

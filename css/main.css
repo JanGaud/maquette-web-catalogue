@@ -8,6 +8,13 @@ main>*{
     margin-top: 50px;
 }
 
+header{
+  margin-bottom: 100px;
+}
+
+a{
+  font-family: 'Times New Roman', Times, serif;
+}
 /*Typographies*/
 
 h1{
@@ -24,7 +31,7 @@ h2{
 }
 
 h3{
-  font-family: 'Freehand', cursive;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
 }
 
@@ -37,19 +44,17 @@ p{
   font-size: 14px;
 }
 
+button{
+  font-family: 'Times New Roman', Times, serif;
+}
+
 /*scrollbar*/
 
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 5px;
     height: 5px;
   }
   
- 
-  ::-webkit-scrollbar-track {
-
-  }
-   
-
   ::-webkit-scrollbar-thumb {
     background: var(--MediumCarmine); 
   }
