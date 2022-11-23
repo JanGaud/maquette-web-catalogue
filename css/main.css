@@ -46,6 +46,15 @@ p{
 
 button{
   font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+}
+
+/*Flex space around horizontale*/
+
+.line-separation{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 /*scrollbar*/

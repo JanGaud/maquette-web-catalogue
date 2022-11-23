@@ -38,29 +38,3 @@
 .banner-nav button:hover{
     background-color: var(--HovMediumCarmine);
 }
-
-.action-horaire{
-    position: absolute;
-    top: 45%;
-    left: 46%;
-}
-
-.action-horaire button{
-    padding: 10px;
-    margin: 10px;
-    background-color: rgba(250, 250, 250, 0.393);
-    border: 1px solid rgba(29, 29, 29, 0.596);
-    box-shadow: inset 0px 2px 2px 2px rgba(0, 0, 0, 0.087);
-}
-
-.action-horaire button:hover{
-    transition: 0.5s;
-    border-radius: 20px;
-    background-color: rgba(245, 245, 245, 0.724);
-}
-
-.action-horaire button:active{
-    transition: 0.1s;
-    border-radius: 20px;
-    background-color: var(--HovMediumCarmine);
-}

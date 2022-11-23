@@ -1,0 +1,66 @@
+/*bouton d'action sur le banner*/
+
+.action-btn{
+    position: absolute;
+    top: 45%;
+    left: 46%;
+}
+
+.action-btn button{
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(250, 250, 250, 0.393);
+    border: 1px solid rgba(29, 29, 29, 0.596);
+    box-shadow: inset 0px 2px 2px 2px rgba(0, 0, 0, 0.087);
+}
+
+.action-btn button:hover{
+    transition: 0.5s;
+    border-radius: 20px;
+    background-color: rgba(245, 245, 245, 0.724);
+}
+
+.action-btn button:active{
+    transition: 0.1s;
+    border-radius: 20px;
+    background-color: var(--HovMediumCarmine);
+}
+
+
+/*boutons actions sur infos-carte*/
+
+.infos-carte-btn-action{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.infos-carte-btn-action>button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.infos-carte-btn-action>button{
+    width: 175px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(250, 250, 250, 0.393);
+    border: 1px solid rgba(29, 29, 29, 0.596);
+    box-shadow: inset 0px 2px 2px 2px rgba(0, 0, 0, 0.087);
+}
+
+.infos-carte-btn-action>button:hover{
+    transition: 0.5s;
+    border-radius: 20px;
+    background-color: rgba(245, 245, 245, 0.724);
+}
+
+.infos-carte-btn-action>button:active{
+    transition: 0.1s;
+    border-radius: 20px;
+    background-color: var(--HovMediumCarmine);
+}
+
