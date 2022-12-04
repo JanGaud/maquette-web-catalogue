@@ -25,21 +25,6 @@
     background-color: var(--Xiketic);
 }
 
-.boite-lien>button{
-    background-color: rgba(0, 0, 0, 0.5);
-    font-size: 20px;
-    height: 100%;
-    width: 100%;
-    border: none;
-    font-weight: bold;
-    color: white;
-}
-
-.boite-lien>button:hover{
-    background-color: rgba(0, 0, 0, 0.897);
-    transition: 0.6s;
-}
-
 .cadre-img{
     background-color: black;
     width: 40%;
@@ -85,4 +70,32 @@
 
 .approuve{
     background-image: url("/css/img/lien-approved.jpg");
+}
+
+/* .Ajout dimage dans les liens de la page d'acceuil*/
+
+
+
+.catalogue{
+    background-image: url("/css/img/liens-catalogue.jpg");
+}
+
+.collections{
+    background-image: url("/css/img/liens-collections.jpeg");
+}
+
+.a-propos{
+    background-image: url("/css/img/liens-apropos.jpg");
+}
+
+.contact{
+    background-image: url("/css/img/liens-contact.jpg");
+}
+
+.en-direct{
+    background-image: url("/css/img/liens-firect.jpg");
+}
+
+.historique{
+    background-image: url("/css/img/liens-actualite.jpg");
 }
