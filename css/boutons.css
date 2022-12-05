@@ -160,3 +160,23 @@
     transition: 0.5s;
     background-color: var(--TransMediumCarmine);
 }
+
+
+/* popup-btn mise*/
+.close {
+    background-color: inherit;
+    border: none;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .btn-primary{
+    border: none;
+    background-color: inherit;
+  }

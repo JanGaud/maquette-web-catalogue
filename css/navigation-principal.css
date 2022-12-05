@@ -10,7 +10,6 @@
 .navigation-principal{
     background-color: var(--Xiketic);
     border-top-left-radius: 30px;
-    border-bottom-right-radius: 30px;
 }
 
 .navigation-principal>a{
