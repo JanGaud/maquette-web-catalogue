@@ -26,6 +26,7 @@ h1{
 
 h2{
   font-family: 'Times New Roman', Times, serif;
+  text-decoration: underline;
   color: rgba(0, 0, 0, 0.623);
   font-size: 30px;
 }
@@ -35,18 +36,30 @@ h3{
   font-size: 20px;
 }
 
+h4{
+  text-align: center;
+  text-decoration: overline;
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.153);
+}
+
+h5{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14px;
+}
+
 pre{
   font-size: 15px;
 }
 
 p{
   font-family: 'Times New Roman', Times;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 button{
   font-family: 'Times New Roman', Times, serif;
-  font-size: 15px;
+  cursor: pointer;
 }
 
 /*Flex space around horizontale*/

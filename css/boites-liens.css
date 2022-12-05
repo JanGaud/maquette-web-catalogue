@@ -1,5 +1,6 @@
 .liens-images{
     display: flex;
+    gap: 10px;
     justify-content: space-between;
     align-items: center;
 }
@@ -14,6 +15,7 @@
 }
 
 .liens-rapides{
+    min-width: 375px;
     width: 50%;
     height: 100%;
     object-fit: contain;
@@ -27,8 +29,9 @@
 
 .cadre-img{
     background-color: black;
+    min-width: 260px;
     width: 40%;
-    height: 341px;
+    height: 340px;
     object-fit: cover;
     overflow: hidden;
 }

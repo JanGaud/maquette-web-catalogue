@@ -82,13 +82,3 @@
     gap: 10px;
 }
 
-.article-base button{
-    background-color: inherit;
-    border-radius: 15px;
-    border: none;
-}
-
-.article-base button:hover{
-    transition: 0.5s;
-    background-color: var(--TransMediumCarmine);
-}
