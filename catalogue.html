@@ -9,6 +9,31 @@
 </head>
 <body>
 
+  <div id="mpopupBox" class="mpopup">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <div class="modal-header">
+            <button class="close"><img src="/css/img/cancel.png" alt=""></button>
+            <h3>Combiens voulez-vous miser?</h3>
+        </div>
+        <div class="modal-body">
+          <section class="infos-carte-prix"><div><h4>Mise actuelle : </h4> <pre>C $1,500</pre></div>  <div><h4>Enchérisseurs: </h4> <pre> 67</pre></div></section>
+          <section class="formulaire-mise">
+            <form action="post">
+              <label for="bid">Combiens voulez-vous miser ?<input id="number" type="number" min="0"></label>
+              <label for="pw">Entrez votre mot de passe :<input type="password" id="pw"></label>
+              <label for="pw-confirmation">Confirmer le mot de passe :<input type="password" id="pw"></label>
+            </form>
+            
+          </section>     
+        </div>
+        <div class="modal-footer">
+            <small>*Assurez-vous que vos fonds sont suffisant pour la mise, car si non, celle-ci seras annulée!</small>
+            <button type="button" class="btn btn-primary"><img src="/css/img/bid.png" alt=""></button>
+        </div>
+    </div>
+  </div>
+
   <section class="top-header">
     <section class="client-connexion">     
         <a href="#">Déconnexion</a> 
@@ -371,7 +396,7 @@
                 </div>
                 <div class="interaction-cartes">
                     <button><img src="/css/img/heart.png" alt=""></button>
-                    <button class="btn btn-primary"><img src="/css/img/bid.png" alt=""></button>
+                    <button><img src="/css/img/bid.png" alt=""></button>
                     <button><img src="/css/img/plus.png" alt=""></button>
                 </div>
                
@@ -912,8 +937,6 @@
             </div>
         </section>
       </section>
-
-      <script src="js/popup-bid.js"></script>
 
         <footer>
           <div class="footer-logo">

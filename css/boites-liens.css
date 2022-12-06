@@ -21,6 +21,11 @@
     object-fit: contain;
 }
 
+/*Changement de direction des liens de la page d'acceuil*/
+.liens-rapides-acceuil{
+    flex-direction: row-reverse;
+}
+
 .boite-lien{
     height: 125px;
     width: 170px;
