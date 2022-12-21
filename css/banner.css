@@ -19,22 +19,7 @@
 .banner-nav{
     position: absolute;
     top: 45%;
-}
-
-.banner-nav{
     width: 100%;
     display: flex;
     justify-content: space-between;
-}
-
-.banner-nav button{
-    background-color: var(--TransMediumCarmine);    
-    border: none;
-    margin: 10px;
-    padding: 5px;
-    border-radius: 15px;
-}
-
-.banner-nav button:hover{
-    background-color: var(--HovMediumCarmine);
 }

@@ -5,23 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Freehand&family=Pacifico&display=swap" rel="stylesheet">
     <title>Acceuil</title>
 </head>
 
 <body>
 <section class="top-header">
     <section class="client-connexion">     
-        <a href="#">Connexion</a><pre>/</pre><a href="#">Insciption</a>
+        <a href="#">Connexion</a><pre>/</pre><a href="#">Inscription</a>
     </section>
     <section class="barre-recherche">
-      <label for="barre-recherche">
           <div class="icone-fleche-bas"><img src="/css/img/down.png" alt="icone-fleche-bas"></div>
-            <input type="text"> 
+          <label for="barre-recherche" name="search">
+            <input type="text">
+          </label>
           <div class="icone-recherche"><img src="/css/img/search.png" alt="icone rechercher"></div>
-      </label>
     </section>
   </section>
   <header>
@@ -65,8 +62,8 @@
     <main>
         <div class="main-header">
                 <div class="banner-nav">
-                    <button><img src="/css/img/left-arrow.png" alt="left"></button>
-                    <button><img src="/css/img/right-arrow.png" alt="left"></button>
+                    <button class="btn-arrow"><img src="/css/img/left-arrow.png" alt="left"></button>
+                    <button class="btn-arrow"><img src="/css/img/right-arrow.png" alt="left"></button>
                 </div>
             <img src="/css/img/mainHeader.png" alt="">
         </div>
@@ -78,21 +75,21 @@
                 <div class="article-txt"><p>Afin de devenir vendeur sur notre site, il faut obligatoirement faire une demande d'authentification.
                     Cette demande peut prendre quelques jours pour être traité car nous voulons nous assurer que tout nos vendeurs sont fiables et rencontrent des critères spécifiques pour favoriser nos services d'enchères. 
                 </p></div>
-                <div class="btn-article-acceuil"><button>Faire une demande &nbsp<img src="/css/img/vendeurIcon.png" alt=""></button></div>
+                <div class="btn-article-acceuil"><button class="btns-actions">Faire une demande &nbsp<img src="/css/img/vendeurIcon.png" alt=""></button></div>
             </section>
 
             <section class="article-acceuil">
                 <div><h2>Nos Archives</h2></div>
                 <div class="article-txt"><p>Au fils des années, nous avons cummulés un grand nombre d'enchères historiques et palpitant dans le monde de la philatélie. Par ailleurs, une panoplie d'images et d'articles sont à votre disposition pour en témoigner.
                 </p></div>
-                <div class="btn-article-acceuil"><button>Voir les archives &nbsp<img src="/css/img/archive.png" alt=""></button></div>
+                <div class="btn-article-acceuil"><button class="btns-actions">Voir les archives &nbsp<img src="/css/img/archive.png" alt=""></button></div>
             </section>
 
             <section class="article-acceuil">
                 <div><h2>Approuvé par le Lord</h2></div>
                 <div class="article-txt"><p>Gardez l'oeil ouvert pour les badges approuvé par le Lord. Cette icone fait mention de la valeure et des spéculations de la rareté des timbres qui auront ce badge. Le Lord est un passionné de philatélie et ce, de génération en génération. Il a une équipe de spécialistes qui l'aide à vous aidez à faire de bons choix éclairés pour vos collections de timbres. 
                 </p></div>
-                <div class="btn-article-acceuil"><button>Voir nos selections &nbsp<img src="/css/img/crown.png" alt=""></button></div>
+                <div class="btn-article-acceuil"><button class="btns-actions">Voir nos selections &nbsp<img src="/css/img/crown.png" alt=""></button></div>
             </section>
 
         </div>
@@ -117,7 +114,7 @@
 
                 <div class="infolettre-courriel">
                     <label for="infolette-courriel">Courriel :</label>
-                    <input name="infolette-courriel" type="text">
+                    <input name="infolette-courriel" placeholder="Saisir votre courriel ici..." type="text">
 
                     <button type="submit"><img src="/css/img/sendIcone.png" alt=""></button>
                 </div>
@@ -192,7 +189,7 @@
           <a href="#"><img src="/css/img/facebook.png" alt=""></a>
         </div>
         <div class="select-langue">
-          <label for="langue">
+          <label for="langue" name="`langue">
             <select>
               <option value="francais">Français</option>
               <option value="anglais">Anglais</option>
