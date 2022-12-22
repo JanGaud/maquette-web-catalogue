@@ -53,6 +53,6 @@ function magnify(imgID, zoom) {
     }
   }
 
-  magnify("big-img", 2);
+  magnify("big-img", 3);
 
  /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_image_magnifier_glass*/
